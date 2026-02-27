@@ -1,8 +1,6 @@
 # <img align="left" width="45" height="45" src="https://github.com/user-attachments/assets/eb7f0847-4807-4a4a-a36a-86740477c660"> Kubernetes - Datadog Operator OpenTofu Module
 
-**[GitHub Actions](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions):**
-
-[![OpenTofu Tests](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions/workflows/test.yml/badge.svg)](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions/workflows/test.yml) [![Dependabot](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions/workflows/dependabot.yml/badge.svg)](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions/workflows/dependabot.yml)
+[![OpenTofu Tests](https://img.shields.io/github/actions/workflow/status/osinfra-io/opentofu-kubernetes-datadog-operator/test.yml?branch=main&style=for-the-badge&logo=opentofu&label=OpenTofu%20Tests)](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions/workflows/test.yml) [![Dependabot](https://img.shields.io/github/actions/workflow/status/osinfra-io/opentofu-kubernetes-datadog-operator/dependabot.yml?branch=main&style=for-the-badge&logo=github&label=Dependabot)](https://github.com/osinfra-io/opentofu-kubernetes-datadog-operator/actions/workflows/dependabot.yml)
 
 ## Repository Description
 
