@@ -63,12 +63,6 @@ resource "kubernetes_manifest" "agent" {
           }
         }
 
-        eventCollection = {
-          unbundledEvents = {
-            enabled = true
-          }
-        }
-
         externalMetricsServer = {
           enabled = var.enable_external_metrics_server
         }
