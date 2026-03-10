@@ -194,6 +194,14 @@ locals {
     }
   ]
 
+  tags = [
+    "cluster:${local.cluster_name}",
+    "env:${module.helpers.environment}",
+    "generated:kubernetes",
+    "region:${module.helpers.region}",
+    "team:${var.team}"
+  ]
+
   trace_agent_env_vars = [
 
     # Ignoring Unwanted Resources in APM
@@ -203,13 +211,5 @@ locals {
       name  = "DD_APM_FILTER_TAGS_REGEX_REJECT"
       value = "http.useragent:kube-probe/\\d+\\.\\d+ http.url:https?:\\/\\/[^\\/]+\\/favicon\\.ico ${var.trace_agent_env_dd_apm_filter_tags_regex_reject}"
     }
-  ]
-
-  tags = [
-    "cluster:${local.cluster_name}",
-    "env:${module.helpers.environment}",
-    "generated:kubernetes",
-    "region:${module.helpers.region}",
-    "team:${var.team}"
   ]
 }
